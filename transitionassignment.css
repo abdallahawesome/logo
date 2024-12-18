@@ -1,0 +1,48 @@
+.my-div{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 200px;
+    animation-name: bouncing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bouncing{
+    25%{
+        margin-top: 100px;
+        background-color: yellow;
+    }
+    50%{
+        margin-top: 200px;
+        background-color: blue;
+    }
+    100%{
+        margin-top: 50px;
+        background-color: aqua;
+    }
+}
+.ball{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 200px;
+    animation-name: bouncing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bouncing{
+    25%{
+        margin-top: 100px;
+        background-color: yellow;
+    }
+    50%{
+        margin-top: 200px;
+        background-color: blue;
+    }
+    100%{
+        margin-top: 50px;
+        background-color: aqua;
+    }
+}
